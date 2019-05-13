@@ -1,0 +1,55 @@
+#loopDiv {
+    width: 790px;
+    height: 340px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    width: 790px;
+    height: 340px;
+}
+
+#list {
+    list-style: none;
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+}
+
+#list li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    background: #aaa;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.chooseBut {
+    width: 50px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+    display: none;
+}
+
+#left {
+    position: absolute;
+    left: 0;
+    top: 130px;
+    cursor: pointer;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top: 130px;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="../jquery.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/code.js"></script>
+</head>
+<body>
+    <div class="box1">
+        <h2>欢迎登陆志愿者服务系统</h2>
+        <img src="images/头像.png" alt="">
+        <div class="box2">
+            <form action="">
+                <input type="text" placeholder="账号" name="account" id="account">
+                <input type="password" placeholder="密码" name="pwd" id="pwd">
+                <div class="box3">
+                    <div class="left"><input type="text" placeholder="验证码" class="topAlign" id="verify" name="verify" required></div>
+                    <div class="right">
+                        <canvas width="100" height="40" id="verifyCanvas"></canvas>
+                        <img id="code_img">
+                    </div>
+                </div>
+                <input class="log" type="submit" id="submit" value="登录" onclick="checkpost()">
+                <a href="register.html">没有账号？</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+    margin:0;
+    padding:0;
+}
+body{
+    background: url(../images/background.jpg) no-repeat fixed center center / cover;
+}
+h2{
+    text-align: center;
+    font-size: 26px;
+}
+img{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 35%;
+    top: 65px;
+    opacity: 0.8;
+}
+.box1{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(204, 200, 205, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -220px;
+    margin-left: -170px;
+}
+
+.box2{
+    margin-top: 100px;
+    position: relative;
+    left: 14%;
+    top: 10%;
+}
+.box2 p{
+    margin: 10px;
+    color: rgba(0,0,0,0.8);
+}
+.box3{
+    width: 230px;
+    height: 40px;
+}
+.box3 .left{
+    width: 107px;
+    float: left;
+}
+.box3 .right{
+    width: 100px;
+    height: 40px;
+    float: right;
+    position: relative;
+}
+#verify {
+    height: 34px;
+    font-size: 16px;
+    vertical-align: top;
+}
+#code_img{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+form{
+    width: 207px;
+}
+
+a{
+    width: 70px;
+    margin: 5px auto;
+    text-decoration: none;
+    color: rgba(0, 107, 168,0.8);
+    font-size: 14px;
+    display: block;
+}
+a:hover{
+    color: #1654ff;
+}
+input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin: 5px;
+}
+.topAlign{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.log{
+    width: 130px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    border: 1px;
+    color: azure;
+    background-color: rgba(8, 71, 255, 0.8);
+}
+.log:hover{
+    background-color: #0e07ff;
+}
